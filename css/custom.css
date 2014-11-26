@@ -1,0 +1,107 @@
+/*Heading Classess*/
+
+h3 {
+	font-family: 'Montserrat', sans-serif;
+	color: black;
+	font-size: 30px;
+}
+
+p {
+	font-family: "Open Sans", sans-serif;
+	color: black;
+	font-size: 15px;
+	line-height: 2.5;
+}
+
+h4 {
+	text-transform: capitalize;
+	font-family: "Open Sans", sans-serif;
+}
+
+/*Navigation Bar */
+
+.navbar-default {
+	background-color: #8fb9c3;
+	border-color: none;
+	margin-bottom: 0px;
+	border: 0px;
+	border-radius: 0px;
+}
+
+.navbar h4 	{
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+	font-size:15px;
+	font-weight: 400;
+	padding-top: 5px;
+}
+
+.navbar a:hover {
+	text-decoration: none;
+	color: #f5f5f5;
+}
+/*End Navbar*/
+
+/*Start Jumbotron*/
+.jumbotron {
+	background-color: grey;
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
+.jumbotron h1 {
+	font-family: 'Montserrat', sans-serif;
+	color: white;
+	margin-bottom: 20px;
+}
+
+.jumbotron h4 {
+	font-family: "Open Sans", sans-serif;
+	color: white;
+}
+/*End Jumbotron*/
+
+hr {
+    border: none;
+    text-align: left;
+    height: 2px;
+    width: 50px;
+    /* Set the hr color */
+    color: #8fb9c3; /* old IE */
+    background-color: #8fb9c3; /* Modern Browsers */
+}
+
+.section-2 {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.btn-primary {
+	background-color: white !important;
+	border-color: #8fb9c3;
+	color: black;
+	padding: 10px;
+	border-radius: 0px;
+	border-width: 2px;
+	font-family: "Montserrat", sans-serif;
+
+	-webkit-transition: color .25s linear, background-color .25s ease-in-out, border-color .25s ease-in-out;
+	-moz-transition: color .25s linear, background-color .25s ease-in-out, border-color .25s ease-in-out;
+	-o-transition: color .25s linear, background-color .25s ease-in-out, border-color .25s ease-in-out;
+	transition: color .25s linear, background-color .25s ease-in-out, border-color 
+}
+
+.btn-primary:hover {
+	background-color: #8fb9c3 !important;
+	border-color: #8fb9c3;
+	color: white;
+	padding: 10px;
+	border-radius: 0px;
+	border-width: 2px;
+	font-family: "Montserrat", sans-serif;
+
+	-webkit-transition: color .25s linear, background-color .25s ease-in-out, border-color .25s ease-in-out;
+	-moz-transition: color .25s linear, background-color .25s ease-in-out, border-color .25s ease-in-out;
+	-o-transition: color .25s linear, background-color .25s ease-in-out, border-color .25s ease-in-out;
+	transition: color .25s linear, background-color .25s ease-in-out, border-color .25s 
+}
